@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -27,6 +30,31 @@
 .App-link {
   color: #61dafb;
 }
+
+.Header {
+  background-color: rgb(29, 32, 29);
+  display: flex;
+  justify-content: flex-end;
+  }
+
+.btn{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  font-size: larger;
+ 
+}
+
+.btn-primary{
+  background-color: rgb(171, 216, 157);
+}
+
+.btn-nav{
+  justify-self: flex-end;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

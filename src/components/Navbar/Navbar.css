@@ -1,0 +1,17 @@
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* max-width: 15%;
+    max-height: 100%;
+    position: fixed;
+    top:10;
+    left: 0; */
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    /* display: block; */
+}
